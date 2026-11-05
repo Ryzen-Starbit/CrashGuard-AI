@@ -10,9 +10,9 @@ CrashGuard AI detects and tracks every vehicle in the video, measures the motion
 
 ## 🎥 Demo
 
-[![CrashGuard AI Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+[![CrashGuard AI Demo](https://img.youtube.com/vi/mdxdo5YEWsA/maxresdefault.jpg)](https://youtu.be/mdxdo5YEWsA)
 
-▶️ **[Watch the full demo on YouTube](https://youtu.be/YOUR_VIDEO_ID)**
+▶️ **[Watch the full demo on YouTube](https://youtu.be/mdxdo5YEWsA)**
 
 ---
 
