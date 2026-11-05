@@ -1,0 +1,7 @@
+ultralytics>=8.2.0
+lap>=0.5.12
+opencv-python
+numpy
+pandas
+scikit-learn
+joblib

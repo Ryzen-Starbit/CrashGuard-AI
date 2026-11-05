@@ -1,0 +1,31 @@
+{
+  "_note": "DUMMY DATA for the CrashGuard AI demo. Place names are real Pune landmarks but coordinates are approximate and every phone number is a placeholder -- nothing here contacts a real hospital or police station.",
+  "city": "Pune",
+  "bounds": { "min_lat": 18.40, "max_lat": 18.70, "min_lon": 73.70, "max_lon": 74.05 },
+  "emergency_numbers": { "ambulance": "108", "police": "100", "unified_emergency": "112" },
+  "services": [
+    { "id": "H01", "type": "hospital", "name": "Sassoon General Hospital", "area": "Pune Station", "lat": 18.5286, "lon": 73.8737, "phone": "+91-00000-10001", "trauma_center": true },
+    { "id": "H02", "type": "hospital", "name": "Ruby Hall Clinic", "area": "Sangamvadi", "lat": 18.5332, "lon": 73.8771, "phone": "+91-00000-10002", "trauma_center": true },
+    { "id": "H03", "type": "hospital", "name": "Jehangir Hospital", "area": "Sasoon Road", "lat": 18.5300, "lon": 73.8800, "phone": "+91-00000-10003", "trauma_center": false },
+    { "id": "H04", "type": "hospital", "name": "Deenanath Mangeshkar Hospital", "area": "Erandwane", "lat": 18.5030, "lon": 73.8295, "phone": "+91-00000-10004", "trauma_center": true },
+    { "id": "H05", "type": "hospital", "name": "KEM Hospital", "area": "Rasta Peth", "lat": 18.5196, "lon": 73.8681, "phone": "+91-00000-10005", "trauma_center": false },
+    { "id": "H06", "type": "hospital", "name": "Sahyadri Hospital", "area": "Deccan Gymkhana", "lat": 18.5135, "lon": 73.8417, "phone": "+91-00000-10006", "trauma_center": false },
+    { "id": "H07", "type": "hospital", "name": "Bharati Hospital", "area": "Dhankawadi", "lat": 18.4580, "lon": 73.8540, "phone": "+91-00000-10007", "trauma_center": true },
+    { "id": "H08", "type": "hospital", "name": "Jupiter Hospital", "area": "Baner", "lat": 18.5640, "lon": 73.7740, "phone": "+91-00000-10008", "trauma_center": true },
+    { "id": "H09", "type": "hospital", "name": "Aditya Birla Memorial Hospital", "area": "Chinchwad", "lat": 18.6290, "lon": 73.7710, "phone": "+91-00000-10009", "trauma_center": true },
+    { "id": "H10", "type": "hospital", "name": "Noble Hospital", "area": "Hadapsar", "lat": 18.5040, "lon": 73.9300, "phone": "+91-00000-10010", "trauma_center": false },
+    { "id": "H11", "type": "hospital", "name": "Manipal Hospital", "area": "Kharadi", "lat": 18.5510, "lon": 73.9420, "phone": "+91-00000-10011", "trauma_center": false },
+    { "id": "H12", "type": "hospital", "name": "Poona Hospital", "area": "Sadashiv Peth", "lat": 18.5110, "lon": 73.8430, "phone": "+91-00000-10012", "trauma_center": false },
+
+    { "id": "P01", "type": "police", "name": "Shivajinagar Police Station", "area": "Shivajinagar", "lat": 18.5310, "lon": 73.8500, "phone": "+91-00000-20001" },
+    { "id": "P02", "type": "police", "name": "Deccan Police Station", "area": "Deccan Gymkhana", "lat": 18.5170, "lon": 73.8410, "phone": "+91-00000-20002" },
+    { "id": "P03", "type": "police", "name": "Kothrud Police Station", "area": "Kothrud", "lat": 18.5070, "lon": 73.8070, "phone": "+91-00000-20003" },
+    { "id": "P04", "type": "police", "name": "Hadapsar Police Station", "area": "Hadapsar", "lat": 18.5010, "lon": 73.9260, "phone": "+91-00000-20004" },
+    { "id": "P05", "type": "police", "name": "Bharati Vidyapeeth Police Station", "area": "Katraj", "lat": 18.4590, "lon": 73.8580, "phone": "+91-00000-20005" },
+    { "id": "P06", "type": "police", "name": "Yerawada Police Station", "area": "Yerawada", "lat": 18.5520, "lon": 73.8850, "phone": "+91-00000-20006" },
+    { "id": "P07", "type": "police", "name": "Chaturshringi Police Station", "area": "Aundh Road", "lat": 18.5390, "lon": 73.8290, "phone": "+91-00000-20007" },
+    { "id": "P08", "type": "police", "name": "Swargate Police Station", "area": "Swargate", "lat": 18.5010, "lon": 73.8630, "phone": "+91-00000-20008" },
+    { "id": "P09", "type": "police", "name": "Hinjewadi Police Station", "area": "Hinjewadi", "lat": 18.5910, "lon": 73.7390, "phone": "+91-00000-20009" },
+    { "id": "P10", "type": "police", "name": "Vimantal Police Station", "area": "Viman Nagar", "lat": 18.5670, "lon": 73.9140, "phone": "+91-00000-20010" }
+  ]
+}
