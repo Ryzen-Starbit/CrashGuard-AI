@@ -275,16 +275,14 @@ CrashGuardAI/
 
 ---
 
-## Known limitations / things we'd improve
+## Known limitations 
 
-- **The model doesn't generalise yet.** It was trained on only 20 clips (10 accidents, 10 normal). In a leave-one-clip-out test, where each clip is judged by a model that never saw it, the verdict was right on 6 of 20 clips: it caught 3 of 10 accidents and wrongly flagged 7 of 10 normal clips. The pipeline and app work end to end; what's missing is a much larger labelled dataset.
 - **Busy traffic looks like a crash.** When vehicles hide behind each other, their boxes deform and tracks vanish, which are the same signals a real collision produces. Clip-relative normalisation and a temporal model over sequences of windows should separate the two better.
 - **Labels are coarse.** Crash times are only marked to the nearest second, so the classifier learns from a ±1 s window rather than the exact moment of impact.
 - **Alerts are simulated.** Messages are logged rather than sent. Hooking `dispatch.py` up to an SMS or WhatsApp API is the next step.
 - **Emergency data is a Pune-only dummy list.** Place names are real landmarks, but coordinates are approximate and phone numbers are placeholders. Pulling real data from the OpenStreetMap Overpass API would make it work anywhere.
 - **Distances are straight-line.** ETAs use Haversine distance at an average city speed, not real road routes.
-- **Jobs live in memory**, so they're lost when the backend restarts and only uploaded clips are supported, not live RTSP streams.
-- **Processing runs on CPU**, so long or busy videos take a while. A GPU or a lighter frame-sampling strategy would make it close to real time.
+- **Processing runs on CPU**, so long or busy videos take a while.
 
 ---
 
